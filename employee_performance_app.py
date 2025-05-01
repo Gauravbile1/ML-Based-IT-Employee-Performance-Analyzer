@@ -9,7 +9,7 @@ import streamlit as st
 import seaborn as sns
 
 # Load dataset
-df = pd.read_csv(r"C:\Users\Gaurav Bile\Videos\1Study\SKY internship\IT Employee Performance Prediction Dashboard\HR_Employee_Preprocessed.csv", encoding='utf-8')
+df = pd.read_csv("HR_Employee_Preprocessed.csv", encoding='utf-8')
 
 # Ensure the correct target column is used
 if 'PerformanceRating' in df.columns:
